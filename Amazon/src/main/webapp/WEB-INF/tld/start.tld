@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd">
+  <tlib-version>1.0</tlib-version>
+  
+<short-name>start</short-name>
+<jsp-version>1.2</jsp-version>
+<tlib-version>1.0</tlib-version>
+<description>JSP 2.0 amg start tags file</description>
+
+<tag-file>
+<name>student1</name>
+<path>/WEB-INF/tags/student.tag</path>
+</tag-file>
+
+<tag>
+<name>student2</name>
+<tag-class>amg.start.servlets.tag.StudentTag</tag-class>
+<body-content>empty</body-content>
+<description>Tag predfdfkljgdklf</description>
+<attribute>
+            <name>student</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+<!--             <type>amg.start.models.student.Student</type> -->
+        </attribute>
+</tag>
+</taglib>

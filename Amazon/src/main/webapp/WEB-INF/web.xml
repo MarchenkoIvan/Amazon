@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>PhotoDownloadServlet</servlet-name>
+    <servlet-class>amazon.servlets.PhotoDownloadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PhotoDownloadServlet</servlet-name>
+    <url-pattern>/PhotoDownloadServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AllPhotosServlet</servlet-name>
+    <servlet-class>amazon.servlets.AllPhotosServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AllPhotosServlet</servlet-name>
+    <url-pattern>/AllPhotosServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>EditPhotoServlet</servlet-name>
+    <servlet-class>amazon.servlets.EditPhotoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditPhotoServlet</servlet-name>
+    <url-pattern>/EditPhotoServlet</url-pattern>
+  </servlet-mapping>
+<!--   <servlet> -->
+<!--     <description></description> -->
+<!--     <display-name>StudentTag</display-name> -->
+<!--     <servlet-name>StudentTag</servlet-name> -->
+<!--     <servlet-class>amg.start.servlets.tag.StudentTag</servlet-class> -->
+<!--   </servlet> -->
+<!--   <servlet-mapping> -->
+<!--     <servlet-name>StudentTag</servlet-name> -->
+<!--     <url-pattern>/StudentTag</url-pattern> -->
+<!--   </servlet-mapping> -->
+<!--   <servlet> -->
+<!--     <description></description> -->
+<!--     <display-name>AddStudentServlet</display-name> -->
+<!--     <servlet-name>AddStudentServlet</servlet-name> -->
+<!--     <servlet-class>amg.start.servlets.AddStudentServlet</servlet-class> -->
+<!--   </servlet> -->
+<!--   <servlet-mapping> -->
+<!--     <servlet-name>AddStudentServlet</servlet-name> -->
+<!--     <url-pattern>/AddStudentServlet</url-pattern> -->
+<!--   </servlet-mapping> -->
+<!--   <servlet> -->
+<!--     <description></description> -->
+<!--     <display-name>RemoveStudentServlet</display-name> -->
+<!--     <servlet-name>RemoveStudentServlet</servlet-name> -->
+<!--     <servlet-class>amg.start.servlets.RemoveStudentServlet</servlet-class> -->
+<!--   </servlet> -->
+<!--   <servlet-mapping> -->
+<!--     <servlet-name>RemoveStudentServlet</servlet-name> -->
+<!--     <url-pattern>/RemoveStudentServlet</url-pattern> -->
+<!--   </servlet-mapping> -->
+<!--   <servlet> -->
+<!--     <description></description> -->
+<!--     <display-name>EditStudentServlet</display-name> -->
+<!--     <servlet-name>EditStudentServlet</servlet-name> -->
+<!--     <servlet-class>amg.start.servlets.EditStudentServlet</servlet-class> -->
+<!--   </servlet> -->
+<!--   <servlet-mapping> -->
+<!--     <servlet-name>EditStudentServlet</servlet-name> -->
+<!--     <url-pattern>/EditStudentServlet</url-pattern> -->
+<!--   </servlet-mapping> -->
+<!--   <servlet> -->
+<!--     <description></description> -->
+<!--     <display-name>LoginServlet</display-name> -->
+<!--     <servlet-name>LoginServlet</servlet-name> -->
+<!--     <servlet-class>amg.start.servlets.LoginServlet</servlet-class> -->
+<!--   </servlet> -->
+<!--   <servlet-mapping> -->
+<!--     <servlet-name>LoginServlet</servlet-name> -->
+<!--     <url-pattern>/LoginServlet</url-pattern> -->
+<!--   </servlet-mapping> -->
+<!--   <filter> -->
+<!--   	<filter-name>LoginFilter</filter-name> -->
+<!-- 		<filter-class>amg.start.servlets.LoginFilter</filter-class>   -->
+<!-- 		</filter> -->
+<!--   <filter-mapping> -->
+<!--   <filter-name>LoginFilter</filter-name> -->
+<!--   <url-pattern>/StudentsListServlet</url-pattern> -->
+<!--   <servlet-name>EditStudentServlet</servlet-name> -->
+<!--   </filter-mapping> -->
+  
+</web-app>
